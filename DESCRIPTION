@@ -1,0 +1,18 @@
+Package: gaia
+Title: Gaia
+Version: 0.0.0.9000
+Authors@R: 
+    person("Grigory", "Uskov", , "uskov.russia@gmail.com", role = c("cre", "aut"))
+Description: Gaia catalog access
+License: MIT + file LICENSE
+URL: {{ URL }}
+BugReports: {{ BugReports }}
+Imports: 
+    checkmate,
+    glue,
+    httr,
+    magrittr,
+    purrr,
+    readr
+Encoding: UTF-8
+RoxygenNote: 7.2.0
