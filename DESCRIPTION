@@ -8,11 +8,15 @@ License: MIT + file LICENSE
 URL: {{ URL }}
 BugReports: {{ BugReports }}
 Imports: 
+    bit64,
     checkmate,
     glue,
     httr,
+    jsonlite,
     magrittr,
-    purrr,
-    readr
+    purrr
 Encoding: UTF-8
 RoxygenNote: 7.2.0
+Depends: 
+    R (>= 2.10)
+LazyData: true
